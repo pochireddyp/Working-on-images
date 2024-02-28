@@ -1,28 +1,29 @@
 # Working-on-images
-Working_on_images
-AIM :
+### AIM :
 The image should be converted to gray scale and HSV and display the H, S and V planes.
 
-Software Required :
+### Software Required :
 jupyter Notebook
 
-Algorithm :
-Step1:
+### Algorithm :
+### Step1:
 Choose an image , the image should be a plant , Tree, flower or building.
 
-Step 2:
+### Step 2:
 Save the image and the filename should be username.jpg
 
-Step 3:
+### Step 3:
 Convert the image to gray scale and HSV
 
-Step 4:
+### Step 4:
 Display the H,S and V planes.
 
-Program :
+### Program :
+```python
+'''
 Developed By : pocireddy.p
 Register Number : 212223240115
-```python
+'''
 import cv2
 import numpy as np
 username = "pochi"
