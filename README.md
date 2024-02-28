@@ -22,6 +22,7 @@ Display the H,S and V planes.
 Program :
 Developed By : pocireddy.p
 Register Number : 212223240115
+```python
 import cv2
 import numpy as np
 username = "pochi"
@@ -37,6 +38,7 @@ cv2.imwrite(f"{username}_gray.jpg", gray)
 cv2.imwrite(f"{username}_hsv.jpg", hsv)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+```
 Output :
 ![Screenshot 2024-02-28 223811](https://github.com/pochireddyp/Working-on-images/assets/150232043/179886ef-bf07-4e11-9172-ff73f6e70961)
 
